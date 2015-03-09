@@ -1,0 +1,13 @@
+11 22 33 ..... cc 
+dest		src
+
+MAC IP   UDP data
+14  >=20  8
+
+MAC:dest MAC   src MAC  PROT
+	6	6	2
+
+IP:dest IP  src IP  IPSUM  TTL  IPv  HLEN  LEN  TOS  ID OFFSET   
+
+UDP:dest PORT    src PORT   SUM    LEN
+	2		2    2      2

@@ -1,0 +1,15 @@
+#include "common.h"
+
+int main(int argc, char *argv[])
+{
+	char buf[20] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xaa, 0xbb, 0xcc};//eth frame
+
+	eth_init();
+
+	while(1){
+		eth_send(buf, 12);
+		delay(100);
+	}
+
+	return 0;
+}
