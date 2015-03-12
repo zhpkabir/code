@@ -1,0 +1,31 @@
+Using built-in specs.
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 's' '-mtune=generic'
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.3/cc1 -quiet -v s.c -D_FORTIFY_SOURCE=2 -quiet -dumpbase s.c -mtune=generic -auxbase s -version -fstack-protector -o /tmp/ccsRFZvW.s
+GNU C (Ubuntu 4.4.3-4ubuntu5.1) version 4.4.3 (x86_64-linux-gnu)
+	compiled by GNU C version 4.4.3, GMP version 4.3.2, MPFR version 2.4.2-p1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.4.3-4ubuntu5.1) version 4.4.3 (x86_64-linux-gnu)
+	compiled by GNU C version 4.4.3, GMP version 4.3.2, MPFR version 2.4.2-p1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 462394bb0ac77cba16b6fb6b32589358
+COLLECT_GCC_OPTIONS='-v' '-o' 's' '-mtune=generic'
+ as -V -Qy -o /tmp/ccjPsXDG.o /tmp/ccsRFZvW.s
+GNU assembler version 2.22 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.22
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/x86_64-linux-gnu/
+COLLECT_GCC_OPTIONS='-v' '-o' 's' '-mtune=generic'
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=both -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o s -z relro /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../.. -L/usr/lib/x86_64-linux-gnu /tmp/ccjPsXDG.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crtn.o
